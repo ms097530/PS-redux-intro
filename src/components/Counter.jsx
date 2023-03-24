@@ -23,9 +23,9 @@ export default function Counter()
             <h1>Counter</h1>
 
             <div>
+                <p>{count}</p>
                 <button aria-label="increment" onClick={handleIncrement}>+1</button>
                 <button aria-label="incrementByAmount" onClick={handleAddFive}>+5</button>
-                <span>{count}</span>
                 <button aria-label="decrement" onClick={handleDecrement}>-1</button>
             </div>
         </div>
