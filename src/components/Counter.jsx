@@ -12,6 +12,7 @@ export default function Counter()
 
     // console.log(count)
     // console.log(dispatch)
+    console.log('render counter')
 
     // imported actions are action creators
     const handleIncrement = () => dispatch(increment())
